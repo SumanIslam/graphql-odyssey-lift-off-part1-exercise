@@ -10,6 +10,12 @@ const typeDefs = gql`
     length: Int
     moduleCount: Int
   }
+
+  type Author {
+    id: ID!
+    name: String!
+    photo: String
+  }
 `;
 
 module.exports = typeDefs;
