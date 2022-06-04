@@ -18,7 +18,7 @@ const typeDefs = gql`
     "Tracks approximate time to complete, in minutes"
     length: Int
     "Number of modules Track contains"
-    moduleCount: Int
+    modulesCount: Int
   }
 
   "Author of a complete Track"
